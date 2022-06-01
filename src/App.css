@@ -1,0 +1,23 @@
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.individualcont{
+  overflow: hidden;
+  width: 300px;
+  height: auto;
+}
+
+.contimg{
+  height: 640px;
+    width: 340px;
+    object-fit: cover;
+}
+
+.innerindividualcont{
+  display: flex;
+  justify-content: space-between;
+}
